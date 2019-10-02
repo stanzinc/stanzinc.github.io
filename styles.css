@@ -79,6 +79,7 @@ label {
 #logo-div {
   /*to center the logo*/
   vertical-align: middle;
+  padding: 0px;
 }
 
 #logo-link {
@@ -100,7 +101,7 @@ label {
 #footer {
   height: 60px;
   background: #80c1ff;
-  padding-top: 90px;
+  padding-top: 100px;
 }
 
 /* Style all font awesome icons */
