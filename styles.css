@@ -10,20 +10,6 @@ body {
   position: relative;
 }
 
-.logo1 {
-  color: #44c7ff;
-  font-family: 'Kameron', open-sans;
-  font-size: 62px;
-  line-height: 1.4px;
-}
-
-.logo2 {
-  color: white;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 20px;
-  line-height: 1.4px;
-}
-
 .bgcolour {
   background-color: #80c1ff;
 }
@@ -96,29 +82,24 @@ label {
 }
 
 #logo-link {
-  margin-top: 5px;
   /* link was behind the text */
   z-index: 10;
 }
 
 #header {
   width: 100%;
-  padding: 10px;
   background: white;
-  padding: 10px;
 }
 
 #body {
   padding: 10px;
   /* add space for the footer */
-  padding-bottom: 60px;
+  padding-bottom: 25px;
 }
 
 #footer {
-  height: 60px;
-  z-index: 1;
+  height: 25px;
   background: #80c1ff;
-  ;
 }
 
 /* Style all font awesome icons */
