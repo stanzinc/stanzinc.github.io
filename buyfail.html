@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Tinos|Raleway" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>STANZ - Purchase failed</title>
+
+  <!-- jQuery import must be before .load() function for import of header and footer-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+  <!--function to load header and footer with jQuery-->
+  <script>
+    $(function() {
+      $('#header').load('header.html');
+      $('#footer').load('footer.html');
+    });
+  </script>
+  <!--end of function-->
+
+  <!--start of Bootstrap and jQuery via CDN (Content Delivery Network) links-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!--end of Bootstrap and jQuery via CDN (Content Delivery Network) links-->
+
+</head>
+
+
+<body class="bgcolour">
+
+  <!--start of header-->
+  <ol id="header"></ol>
+  <!--end of header-->
+
+  <div class="container">
+    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+      <h1>Whoops ... something went wrong with your order</h1>
+
+      <!--this is to display my About content using Bootstrap for the grid layout-->
+      <div class="row">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+          <div style="background:transparent !important" class="jumbotron jumbotron-fluid">
+            <h3>Your order was not processed</h3>
+            <br>
+            <p>Please try again</p>
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="hosted_button_id" value="RPDUQJ4WF9UDQ">
+              <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+          </div>
+        </div>
+      </div>
+      <!--end of About content-->
+    </div>
+  </div>
+
+  <!--start of footer-->
+  <ol id="footer"></ol>
+  <!--end of footer-->
+
+</body>
+
+</html>
