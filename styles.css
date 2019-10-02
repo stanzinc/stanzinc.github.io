@@ -94,11 +94,13 @@ label {
 #body {
   /* add space for the footer */
   padding-bottom: 60px;
+  width: 100%;
 }
 
 #footer {
   height: 60px;
   background: #80c1ff;
+  padding-top: 90px;
 }
 
 /* Style all font awesome icons */
