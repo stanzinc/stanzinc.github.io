@@ -94,11 +94,11 @@ label {
 #body {
   padding: 10px;
   /* add space for the footer */
-  padding-bottom: 25px;
+  padding-bottom: 60px;
 }
 
 #footer {
-  height: 25px;
+  height: 60px;
   background: #80c1ff;
 }
 
